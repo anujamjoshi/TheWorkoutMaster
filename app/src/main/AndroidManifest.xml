@@ -16,6 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".WorkoutTypeActivity" />
+        <activity android:name=".StrengthFocusActivity" />
+        <activity android:name=".CardioFocusActivity" />
+        <activity android:name=".StretchingFocusActivity" />
+        <activity android:name=".WorkoutActivity"></activity>
     </application>
 
 </manifest>

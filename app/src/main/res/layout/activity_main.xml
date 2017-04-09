@@ -14,7 +14,8 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Are you working out at  the gym or at home?"
+            android:text="Where are you working out?"
+            android:textSize="13pt"
             android:textAlignment="center"
             />
         <LinearLayout
@@ -23,47 +24,30 @@
             android:orientation="vertical"
             android:weightSum="2"
             >
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:orientation="horizontal"
-                android:layout_weight="1"
-                android:layout_gravity="center_horizontal"
-               >
+
+
                 <Button
+                    android:id="@+id/gym_button"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="0dp"
                     android:background="@drawable/gym"
-                    android:text="GYM!"
-                    android:textColor="#f24813"
+                    android:text="Gym!"
+                    android:textColor="#7b7ded"
                     android:textSize="100dp"
+                    android:layout_weight="1"
+
                     />
 
-
-
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:orientation="horizontal"
-                android:layout_weight="1"
-                android:layout_gravity="center_horizontal"
-                >
                 <Button
+                    android:id="@+id/home_button"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="0dp"
                     android:background="@drawable/yogamat"
                     android:text="Home!"
-                    android:textColor="#e23c04"
+                    android:textColor="#ed7be2"
                     android:textSize="100dp"
+                    android:layout_weight="1"
                     />
-
-
-
-            </LinearLayout>
-
-
-
 
         </LinearLayout>
 

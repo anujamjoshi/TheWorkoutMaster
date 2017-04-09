@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gauri.theworkoutmaster.StretchingFocusActivity">
+    <LinearLayout
+        android:layout_width="344dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="top"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text ="Stretching Workout"
+            android:textAlignment="center"
+            android:textSize="12pt"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="4"
+            >
+            <Button
+                android:id="@+id/stretching_head_to_toe_warmup_button"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="head to toe warmup!"
+                android:layout_weight="1"
+                />
+
+            <Button
+                android:id="@+id/stretching_full_body_button"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="full body!"
+                android:layout_weight="1"
+                />
+            <Button
+                android:id="@+id/stretching_standing_only_button"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="standing only!"
+                android:layout_weight="1"
+                />
+            <Button
+                android:id="@+id/stretching_back_strengthening_button"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="back strengthening!"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

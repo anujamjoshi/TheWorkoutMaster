@@ -17,15 +17,16 @@ public class StretchingFocusActivity extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 startActivity(new Intent(StretchingFocusActivity.this, WorkoutActivity.class));
-                WorkoutActivity.createActivities("back_strenghthening");
+//               WorkoutActivity.createActivities("stretching_back_strengthening");
             }
 
-        });   Button fullBody = (Button)  findViewById(R.id.stretching_full_body_button);
+        });
+        Button fullBody = (Button)  findViewById(R.id.stretching_full_body_button);
         fullBody.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
                 startActivity(new Intent(StretchingFocusActivity.this, WorkoutActivity.class));
-                WorkoutActivity.createActivities("full_body");
+               // WorkoutActivity.createActivities("stretching_full_body");
             }
 
         });
@@ -34,7 +35,7 @@ public class StretchingFocusActivity extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 startActivity(new Intent(StretchingFocusActivity.this, WorkoutActivity.class));
-                WorkoutActivity.createActivities("head_to_toe_warmup");
+                //WorkoutActivity.createActivities("stretching_head_to_toe_warmup");
             }
 
         });
@@ -43,7 +44,7 @@ public class StretchingFocusActivity extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 startActivity(new Intent(StretchingFocusActivity.this, WorkoutActivity.class));
-                WorkoutActivity.createActivities("standing_only");
+                //WorkoutActivity.createActivities("stretching_standing_only");
             }
 
         });

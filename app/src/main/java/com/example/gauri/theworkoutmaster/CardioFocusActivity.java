@@ -17,7 +17,7 @@ public class CardioFocusActivity extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 startActivity(new Intent(CardioFocusActivity.this, WorkoutActivity.class));
-                WorkoutActivity.createActivities("full_intensity");
+               // WorkoutActivity.createActivities("cardio_full_intensity");
             }
 
         });
@@ -26,7 +26,7 @@ public class CardioFocusActivity extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 startActivity(new Intent(CardioFocusActivity.this, WorkoutActivity.class));
-                WorkoutActivity.createActivities("warmup");
+               // WorkoutActivity.createActivities("cardio_light_warmup");
             }
 
         });

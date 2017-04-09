@@ -10,7 +10,7 @@
         android:layout_height="587dp"
         android:orientation="vertical"
         android:layout_gravity="center"
-        android:background="#ffffff"
+        android:background="#1be4e4"
         android:gravity="top"
         >
         <TextView
@@ -32,7 +32,7 @@
                     android:id="@+id/gym_button"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
-                    android:background="@drawable/backgroud_wide"
+                    android:background="@drawable/backgroud_wide_gym_home"
                     android:text="Gym!"
                     android:textColor="#7b7ded"
                     android:textSize="100dp"

@@ -32,6 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:text="light warmup!"
+            android:background="@drawable/backgroud_wide_lazy"
             android:layout_weight="1"
             />
 
@@ -40,6 +41,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:text="full intensity!"
+            android:background="@drawable/backgroud_wide_gym_home"
             android:layout_weight="1"
             />
 

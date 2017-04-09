@@ -17,6 +17,7 @@ public class StrengthFocusActivity extends AppCompatActivity {
            @Override
             public void onClick(View v){
                 startActivity(new Intent(StrengthFocusActivity.this, WorkoutActivity.class));
+                 WorkoutActivity.createActivities("upperStrength");
             }
 
         });
@@ -25,6 +26,7 @@ public class StrengthFocusActivity extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 startActivity(new Intent(StrengthFocusActivity.this, WorkoutActivity.class));
+                WorkoutActivity.createActivities("coreStrength");
             }
         });
         Button lowerStrength = (Button)  findViewById(R.id.strength_lower_button);
@@ -32,6 +34,7 @@ public class StrengthFocusActivity extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 startActivity(new Intent(StrengthFocusActivity.this, WorkoutActivity.class));
+                WorkoutActivity.createActivities("lowerStrength");
             }
         });
         Button fullStrength = (Button) findViewById(R.id.strength_full_button);
@@ -39,6 +42,7 @@ public class StrengthFocusActivity extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 startActivity(new Intent(StrengthFocusActivity.this, WorkoutActivity.class));
+                WorkoutActivity.createActivities("fullStrength");
             }
         });
 

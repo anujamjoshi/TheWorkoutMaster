@@ -6,8 +6,8 @@
     android:layout_height="match_parent"
     tools:context="com.example.gauri.theworkoutmaster.MainActivity">
     <LinearLayout
-        android:layout_width="395dp"
-        android:layout_height="587dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:orientation="vertical"
         android:layout_gravity="center"
         android:background="#1be4e4"

@@ -31,18 +31,18 @@ public class WorkoutLists {
         full.add("Wide Arm Push-ups");
         strength.put("fullStrength", full );
         ArrayList<String> upper = new ArrayList<String>();
-        full.add("Wall Push-up");
-        full.add("T Raise");
-        full.add("Diamond Push-ups");
-        full.add("Overhead Arm Clap");
-        full.add("Tricep Dips");
+        upper.add("Wall Push-up");
+        upper.add("T Raise");
+        upper.add("Diamond Push-ups");
+        upper.add("Overhead Arm Clap");
+        upper.add("Tricep Dips");
         strength.put("upperStrength", upper );
         ArrayList<String> core = new ArrayList<String>();
-        full.add("Sit-up");
-        full.add("Elevated Crunches");
-        full.add("Leg Spreader");
-        full.add("Plank");
-        full.add("Burpees");
+        core.add("Sit-up");
+        core.add("Elevated Crunches");
+        core.add("Leg Spreader");
+        core.add("Plank");
+        core.add("Burpees");
         strength.put("coreStrength", core );
 
         ArrayList<String> lower = new ArrayList<String>();
